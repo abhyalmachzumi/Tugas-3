@@ -1,0 +1,17 @@
+public class InvalidDiscountException extends Exception {
+    public InvalidDiscountException(String message) {
+        super(message);
+    }
+}
+
+public class InvalidQuantityException extends Exception {
+    public InvalidQuantityException(String message) {
+        super(message);
+    }
+}
+
+public class MenuNotFoundException extends Exception {
+    public MenuNotFoundException(String message) {
+        super(message);
+    }
+}
